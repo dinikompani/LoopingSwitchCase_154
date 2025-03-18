@@ -31,6 +31,21 @@ int main(){
                 cout << "Luas persegi panjang = " << hitungLuasPersegiPanjang(panjang, lebar) << endl;
                 cout << endl;
                 break;
+            case 2:
+                cout << endl;
+                cout << "Menghitung luas segitiga" << endl;
+                cout << endl;
+                cout << "Masukkan alas = ";
+                cin >> alas;
+                cout << "Masukkan tinggi = ";
+                cout << "Luas segitiga = " << hitungLuasSegitiga(alas, tinggi) << endl;
+                cout << endl;
+                break;
+            case 3:
+                cout << endl;
+                cout << "Pilihan anda salah!" << endl;
+                cout << endl;
+                break;
         }
     }while(pilihan !=3);
 }
