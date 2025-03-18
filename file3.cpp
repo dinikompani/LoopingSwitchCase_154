@@ -20,6 +20,17 @@ int main(){
         cout << "Pilihan(1/2/3) : ";
         cin >> pilihan;
         switch(pilihan){
+            case 1:
+                cout << endl;
+                cout << "Menghitung luas persegi panjang" << endl;
+                cout << endl;
+                cout << "Masukkan panjang = ";
+                cin >> panjang;
+                cout << "Masukkan lebar = ";
+                cin >> lebar;
+                cout << "Luas persegi panjang = " << hitungLuasPersegiPanjang(panjang, lebar) << endl;
+                cout << endl;
+                break;
         }
     }while(pilihan !=3);
 }
